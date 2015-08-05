@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mahbub/Documents/workspace/ddetermination/wheelnavcore/main.c
+opencv2/core/core.hpp
+-
+opencv2/calib3d/calib3d.hpp
+-
+opencv2/objdetect/objdetect.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+opencv/cv.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+iostream
+-
+fstream
+-
+

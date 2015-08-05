@@ -1,0 +1,11 @@
+This directory contains code and script files for executing the distance determination methods. 
+
+Steps for Executing WheelNav Core on the response data received from Turkers -
+
+1. Go to directory - /var/www/wheelnav/distance_determination/core/mpss-prod/scripts
+
+2. sh runWheelNavCore .sh
+
+3. sh getCoreResults.sh
+
+Results file will be generated and can be found in the directory - /var/www/wheelnav/distance_determination/core/mpss-prod

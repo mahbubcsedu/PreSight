@@ -1,0 +1,5 @@
+requestID	imageName	imageWidth	imageHeight	canvasWidth	canvasHeight	deviceType	pitch	roll	bbleft	bbright	bbtop	bbbottom
+210	photo210.jpg	486.0	648.0	486.0	648.0	MOTOG	-1.97108	63.2982	189	257	116	194
+211	photo211.jpg	486.0	648.0	486.0	648.0	MOTOG	-1.61422	66.0015	157	245	145	226
+216	photo216.jpg	486.0	648.0	486.0	648.0	MOTOG	-5.35874	56.297	88	174	48	130
+217	photo217.jpg	486.0	648.0	486.0	648.0	MOTOG	-5.39443	68.0513	286	373	200	275

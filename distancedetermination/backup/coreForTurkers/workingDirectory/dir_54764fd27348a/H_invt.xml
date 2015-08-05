@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<H_invt type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>f</dt>
+  <data>
+    5.85302544e+00 8.81962419e-01 -2.33335278e+03 -2.92459426e-08
+    1.49292240e+01 -1.25405481e+03 -2.30167148e-04 2.35074619e-03
+    8.91381860e-01</data></H_invt>
+</opencv_storage>

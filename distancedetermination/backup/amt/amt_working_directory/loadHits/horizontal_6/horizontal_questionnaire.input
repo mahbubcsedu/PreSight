@@ -1,0 +1,5 @@
+requestID	imageName	imageWidth	imageHeight	canvasWidth	canvasHeight	deviceType	pitch	roll	bbleft	bbright	bbtop	bbbottom
+225	photo225.jpg	816.0	612.0	816.0	612.0	NEXUS5	71.4923	4.52306	457	562	255	377
+228	photo228.jpg	816.0	612.0	816.0	612.0	NEXUS5	72.7518	2.31366	357	429	221	326
+220	photo220.jpg	648.0	486.0	648.0	486.0	MOTOG	76.9536	18.584	457	579	207	309
+221	photo221.jpg	648.0	486.0	648.0	486.0	MOTOG	74.0767	4.18316	332	460	216	332

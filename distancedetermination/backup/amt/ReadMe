@@ -1,0 +1,25 @@
+This directory contains necessary code and script files for posting HITs to Amazon Mechanical Turk. 
+
+Requirements and Inputs :
+
+1. Records from tables accessibility.accesspath_data.
+2. Sidewalk Accessibility Issue Images.
+
+-------------------Steps for posting HITs AMT :-------------------------------------------------- 
+
+1. Check the version(V) of last batch processed from the directory - /var/www/wheelnav/distance_determination/amt/amt_working_directory/loadHits
+
+2. Change directory to "Scripts". (/var/www/wheelnav/distance_determination/amt/scripts)
+
+3. sh makeDirectoriesReadyForVersion.sh <V+1>
+
+4. sh makeScriptsForVersion.sh <V+1> This updates the "script_commands" text file.
+
+5. Execute first two scripts from the generated text file into the terminal for posting the newly added records to AMT in the form of HITs.
+
+
+-------------------Steps for retriving resuls from AMT :-------------------------------------------------- 
+
+1. Repeat Steps 1 to 4 (as mentioned above)
+
+2. Execute the third script from the generated text file into the terminal for retriving results from AMT.

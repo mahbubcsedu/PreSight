@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/test.dir/main.o  -o test -rdynamic /usr/local/lib/libopencv_core.so.3.0.0 /usr/local/lib/libopencv_imgproc.so.3.0.0 /usr/local/lib/libopencv_highgui.so.3.0.0 /usr/local/lib/libopencv_imgproc.so.3.0.0 /usr/local/lib/libopencv_core.so.3.0.0 -Wl,-rpath,/usr/local/lib -Wl,-rpath-link,/usr/local/lib 

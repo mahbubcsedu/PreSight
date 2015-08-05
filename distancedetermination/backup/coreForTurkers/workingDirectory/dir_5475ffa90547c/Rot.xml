@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<Rot type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>f</dt>
+  <data>
+    -5.24421096e-01 -8.51089895e-01 2.50696093e-02 -7.01772124e-02
+    1.38610788e-02 -9.97438252e-01 8.48562121e-01 -5.24836957e-01
+    -6.69961572e-02</data></Rot>
+</opencv_storage>

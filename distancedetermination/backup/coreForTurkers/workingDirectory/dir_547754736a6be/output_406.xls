@@ -1,0 +1,2 @@
+RequestId	HitId	AssignmentId	WorkerId	theta	sin_theta	calculated_dz	measuredHeight	calculatedHeight	calculatedRelativeDistance	measuredDistanceTowardsTile	calculatedDistanceTowardsTile	tileDistanceError	measuredDistanceTowardIssue	calculatedDistanceTowardsIssue	issueDistanceError	transX	transY	transZ	M11	M12	M13	M21	M22	M23	M31	M32	M33
+"406"	"NA"	"NA"	"NA"	"27.233"	"0.45761"	"-25.4126"	"0"	"-11.6291"	"-55.3134"	"0"	"22.5957"	"-22.5957"	"0"	"-32.7176"	"32.7176"	"-24.0852"	"8.03825"	"-25.4126"	"0.149424"	"3.16735"	"479"	"-0.584167"	"1.90668"	"137"	"-0.0038002"	"0.0056091"	"1"

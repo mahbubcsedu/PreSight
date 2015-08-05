@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mahbub/Documents/workspace/backup/core/mpss-prod/wheelnavcore/wheelnavcore2/main.cpp
+opencv2/core/core.hpp
+-
+opencv2/calib3d/calib3d.hpp
+-
+opencv2/objdetect/objdetect.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+opencv/cv.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+iostream
+-
+fstream
+-
+

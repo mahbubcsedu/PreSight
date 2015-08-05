@@ -1,0 +1,45 @@
+loadHitsFromDB.sh
+==================
+# $1 = mysql user
+# $2 = mysql pwd
+# $3 = mysql db
+# $4 = loadHits vertical hit input file path
+# $5 = loadHits horizontal hit input file path
+# $6 = resultIDs
+# $7 = vertical hit question file 
+# $8 = horizontal hit question file
+# $9 = hit properties file
+
+sh loadHitsFromDB.sh amold1 amold1123~ accessibility /var/www/wheelnav/distance_determination/amt/amt_working_directory/loadHits/vertical__/vertical_questionnaire.input /var/www/wheelnav/distance_determination/amt/amt_working_directory/loadHits/horizontal__/horizontal_questionnaire.input /var/www/wheelnav/distance_determination/amt/amt_working_directory/loadHits/result__.txt /var/www/wheelnav/distance_determination/amt/amt_working_directory/loadHits/vertical__/vertical_questionnaire.question /var/www/wheelnav/distance_determination/amt/amt_working_directory/loadHits/horizontal__/horizontal_questionnaire.question /var/www/wheelnav/distance_determination/amt/amt_working_directory/loadHits/questionnaire.properties 
+==============================================================================================================
+
+
+postLoadHitsDBUpdate.sh
+=======================
+
+# $1 = mysql user
+# $2 = mysql pwd
+# $3 = mysql db
+# $4 = requestIDs
+# $5 = isPostedToTurk value
+# $6 = loadHitsOutput - vertical
+# $7 = loadHitsOutput - horizontal
+
+
+sh postLoadHitsDBUpdate.sh amold1 amold1123~ accessibility /var/www/wheelnav/distance_determination/amt/amt_working_directory/loadHits/result__.txt 1 /var/www/wheelnav/distance_determination/amt/amt_working_directory/loadHits/vertical__/vertical_questionnaire.input.success /var/www/wheelnav/distance_determination/amt/amt_working_directory/loadHits/horizontal__/horizontal_questionnaire.input.success
+===============================================================================================================
+
+fetchTurkResults.sh
+====================
+
+# $1 = mysql user
+# $2 = mysql pwd
+# $3 = mysql db
+# $4 = getResults Input file
+# $5 = getResults Output file 
+
+sh fetchTurkResults.sh amold1 amold1123~ accessibility /var/www/wheelnav/distance_determination/amt/amt_working_directory/getResults/questionnaire.success /var/www/wheelnav/distance_determination/amt/amt_working_directory/getResults/output.results.xls
+=====================================================================================================================
+
+
+

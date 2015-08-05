@@ -1,0 +1,1 @@
+This directory contains the files and PHP script files for generating the Bird's Eye View(BEV) of the images shown in HITs on Amazon Mechanical Turk. PHP script from this directory is invoked from the HIT which generates the BEV which is then shown to a Turker for providing a Visual Feedback.

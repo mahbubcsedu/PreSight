@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/wheelnavcore2.dir/main.cpp.o  -o wheelnavcore2 -rdynamic 
